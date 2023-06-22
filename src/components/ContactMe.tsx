@@ -18,6 +18,8 @@ export default function ContactMe() {
 
   const onSubmit: SubmitHandler<Inputs> = (formData) => {
     // SEND EMAIL
+    console.log(formData);
+    return null;
   };
 
   return (
@@ -29,7 +31,9 @@ export default function ContactMe() {
       <div className="flex flex-col space-y-8">
         <h4 className="text-center text-4xl font-semibold">
           I have got just what you need.{" "}
-          <span className="underline decoration-[#01b71f]">Let's Talk.</span>
+          <span className="underline decoration-[#01b71f]">
+            Let&apos;s Talk.
+          </span>
         </h4>
 
         <div className="space-y-4">
@@ -48,7 +52,7 @@ export default function ContactMe() {
         </div>
 
         <form
-          onSubmit={handleSubmit(onSubmit)}
+          onSubmit={() => handleSubmit(onSubmit)}
           className="mx-auto flex w-fit flex-col space-y-2"
         >
           <div className="flex space-x-2">
