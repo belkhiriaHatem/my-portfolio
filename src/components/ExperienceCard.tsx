@@ -2,9 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 
-type Props = {};
-
-export default function ExperienceCard({}: Props) {
+export default function ExperienceCard() {
   return (
     <article className="flex w-[300px] flex-shrink-0 cursor-pointer snap-center flex-col items-center space-y-5 overflow-hidden rounded-lg bg-[#222523] p-8 opacity-40 transition-opacity duration-200 hover:opacity-100 md:w-[600px] xl:w-[900px]">
       <img

@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 type Props = {
-  directionLeft?: Boolean;
+  directionLeft?: boolean;
 };
 
 export default function Skill({ directionLeft }: Props) {

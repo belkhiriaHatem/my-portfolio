@@ -2,7 +2,6 @@ import React from "react";
 import { PhoneIcon, EnvelopeIcon, MapPinIcon } from "@heroicons/react/24/solid";
 import { useForm, SubmitHandler } from "react-hook-form";
 
-type Props = {};
 type Inputs = {
   name: string;
   email: string;
@@ -10,7 +9,7 @@ type Inputs = {
   message: string;
 };
 
-export default function ContactMe({}: Props) {
+export default function ContactMe() {
   const {
     register,
     handleSubmit,
