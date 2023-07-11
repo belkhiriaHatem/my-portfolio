@@ -18,9 +18,7 @@ export default function Hero() {
     <div className="flex h-screen flex-col items-center justify-center space-y-8 overflow-hidden text-center">
       <BackgroundCircles />
       <Image
-        src={
-          "https://scontent.ftun2-2.fna.fbcdn.net/v/t1.6435-9/176096472_2841982616050056_5189814825065724964_n.jpg?_nc_cat=101&cb=99be929b-59f725be&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=H4Z2uEpu7nYAX-vHgGl&_nc_ht=scontent.ftun2-2.fna&oh=00_AfBJQmZ0lmzobOA3xUdOoVPQMEnShJhkuC6DFVyGeE9LRA&oe=64B7D8C6"
-        }
+        src={"/me.jpg"}
         alt="Author Pic"
         className="relative rounded-full border-[3px] border-[#222523]"
         width={72}

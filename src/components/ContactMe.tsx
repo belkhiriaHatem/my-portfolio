@@ -51,18 +51,20 @@ export default function ContactMe() {
           </div>
         </div>
 
-        <form
+        {/* <form
           onSubmit={() => handleSubmit(onSubmit)}
           className="mx-auto flex w-fit flex-col space-y-2"
         >
           <div className="flex space-x-2">
             <input
+              disabled={true}
               {...register("name")}
               placeholder="Name"
               className="contactInput"
               type="text"
             />
             <input
+              disabled={true}
               {...register("email")}
               placeholder="Email"
               className="contactInput"
@@ -70,12 +72,14 @@ export default function ContactMe() {
             />
           </div>
           <input
+            disabled={true}
             {...register("subject")}
             placeholder="Subject"
             className="contactInput"
             type="text"
           />
           <textarea
+            disabled={true}
             {...register("message")}
             placeholder="Message"
             className="contactInput"
@@ -83,12 +87,13 @@ export default function ContactMe() {
             rows={3}
           />
           <button
+            disabled={true}
             type="submit"
             className="rounded-md bg-[#01b71f] py-4 text-lg font-bold text-black transition-all duration-300 hover:bg-[#01b71f]/90 active:bg-[#01b71f]/90"
           >
             Submit
           </button>
-        </form>
+        </form> */}
       </div>
     </div>
   );

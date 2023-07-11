@@ -11,7 +11,7 @@ import { HomeIcon } from "@heroicons/react/24/solid";
 
 export default function Home() {
   return (
-    <div className="z-0 h-screen snap-y snap-mandatory overflow-x-hidden overflow-y-scroll bg-[#1a1b18] text-[#eeeeec] scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#01b71f]/80">
+    <div className="z-0 h-screen snap-y snap-mandatory overflow-x-hidden overflow-y-scroll bg-[#1a1b18] text-[#eeeeec] scrollbar-thin scrollbar-track-[#222523] scrollbar-thumb-[#01b71f]/80">
       <Head>
         <title>H4T3M - @dev</title>
         <meta name="description" content="H4T3M - @dev" />

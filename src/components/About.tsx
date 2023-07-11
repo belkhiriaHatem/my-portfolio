@@ -27,18 +27,17 @@ export default function About() {
         className="md:h-95 -mb-20 h-32 w-32 flex-shrink-0 rounded-full object-cover md:mb-0 md:h-64 md:w-64 md:rounded-lg"
       />
       <div className="space-y-5 px-0 md:px-10">
-        <h4 className="text-4xl font-semibold">
-          Here is a <span className="font-thin text-[#01b71f]">little</span>{" "}
-          background
+        <h4 className="text-4xl font-thin">
+          About{" "}
+          <span className="text-4xl font-extrabold text-[#01b71f]">me</span>
         </h4>
         <p className="text-base">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure,
-          laborum eveniet odio assumenda, similique hic rem, quam eaque
-          quibusdam impedit ipsum in aperiam quis possimus quod expedita
-          deleniti provident? Nesciunt. Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Iure, laborum eveniet odio assumenda, similique hic
-          rem, quam eaque quibusdam impedit ipsum in aperiam quis possimus quod
-          expedita deleniti provident? Nesciunt.
+          Detail-oriented and calm even in chaotic or stressful situations.
+          Organized, amiable professional who gets along well with colleagues
+          and clients alike. Passionate about achieving technical excellence
+          with each project. Excited about finding new techniques and approaches
+          for creating unique products that clients want and making each
+          production the best it can be.
         </p>
       </div>
     </motion.div>

@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Projects() {
-  const projects = [1, 2, 3, 4, 5];
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -14,37 +14,67 @@ export default function Projects() {
         Projects👨‍🔧
       </h3>
 
-      <div className="relative z-20 flex w-full snap-x snap-mandatory overflow-y-hidden overflow-x-scroll scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#01b71f]/80">
-        {projects.map((project, i) => (
-          <div
-            key={i}
-            className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44"
-          >
-            <motion.img
-              initial={{ opacity: 0, y: -300 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1.2 }}
-              viewport={{ once: true }}
-              className="w-64 rounded-sm object-contain"
-              src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/10/website-768x297.png"
-              alt="project"
-            />
-            <div className="max-w-6xl space-y-10 px-0 md:px-10">
-              <h4 className="text-center text-4xl font-semibold">
-                <span className="underline decoration-[#01b71f]">
-                  Case Study {i + 1} of {projects.length}:
-                </span>{" "}
-                UPS Clone
-              </h4>
-              <p className="text-center text-lg md:text-left">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil
-                voluptatibus cupiditate expedita, nemo minus molestiae nulla
-                omnis nam tempore repellendus veniam est ab, optio ad recusandae
-                aliquam deleniti ut. At?
-              </p>
-            </div>
+      <h3 className="absolute top-28 text-xs uppercase tracking-[5px] text-[#7d8679]">
+        Professional projects are not included
+      </h3>
+
+      <div className="relative z-20 flex w-full snap-x snap-mandatory overflow-y-hidden overflow-x-scroll scrollbar-thin scrollbar-track-[#222523] scrollbar-thumb-[#01b71f]/80">
+        <div className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44">
+          <motion.img
+            initial={{ opacity: 0, y: -300 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.2 }}
+            viewport={{ once: true }}
+            className="w-64 rounded-sm object-contain"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/768px-Logo_of_Twitter.svg.png"
+            alt="projectI"
+          />
+          <div className="max-w-6xl space-y-10 px-0 md:px-10">
+            <h4 className="text-center text-4xl font-thin">
+              <span className="underline decoration-[#01b71f]">
+                Case Study 1:
+              </span>{" "}
+              Twitter Clone
+            </h4>
+            <p className="text-center text-lg md:text-left">
+              <span className="flex animate-bounce">👇</span> Visit:{" "}
+              <Link
+                className="font-bold"
+                href={"https://twitter-clone-pi-lemon.vercel.app"}
+              >
+                https://twitter-clone-pi-lemon.vercel.app
+              </Link>
+            </p>
           </div>
-        ))}
+        </div>
+        <div className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44">
+          <motion.img
+            initial={{ opacity: 0, y: -300 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.2 }}
+            viewport={{ once: true }}
+            className="w-64 rounded-sm object-contain"
+            src="https://parade.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_760/MTk0NDkyNDU0MjY1NjkzODcz/emoji-meaning.webp"
+            alt="projectII"
+          />
+          <div className="max-w-6xl space-y-10 px-0 md:px-10">
+            <h4 className="text-center text-4xl font-thin">
+              <span className="underline decoration-[#01b71f]">
+                Case Study 2:
+              </span>{" "}
+              Chirp: Emojis Only
+            </h4>
+            <p className="text-center text-lg md:text-left">
+              <span className="flex animate-bounce">👇</span> Visit:{" "}
+              <Link
+                className="font-bold"
+                href={"https://chirp-eight-beige.vercel.app"}
+              >
+                https://chirp-eight-beige.vercel.app
+              </Link>
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="absolute left-0 top-[30%] h-[300px] w-screen -skew-y-12 bg-[#7d8679]/10" />

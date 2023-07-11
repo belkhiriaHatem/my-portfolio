@@ -14,10 +14,7 @@ export default function Experience() {
         Experience
       </h3>
 
-      <div className="flex w-full snap-x snap-mandatory space-x-5 overflow-x-scroll p-10 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#01b71f]/80">
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
+      <div className="flex w-full snap-x snap-mandatory space-x-5 overflow-x-scroll p-10 scrollbar-thin scrollbar-track-[#222523] scrollbar-thumb-[#01b71f]/80">
         <ExperienceCard />
       </div>
     </motion.div>

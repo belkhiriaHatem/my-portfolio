@@ -18,12 +18,17 @@ export default function Header() {
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://github.com/belkhiriaHatem"
+          url="https://www.linkedin.com/in/hatem-belkhiria-a114671ba"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://github.com/belkhiriaHatem"
+          url="https://soundcloud.com/t0my-b"
+          fgColor="gray"
+          bgColor="transparent"
+        />
+        <SocialIcon
+          url="https://www.facebook.com/hatem.belkhiria.14"
           fgColor="gray"
           bgColor="transparent"
         />
