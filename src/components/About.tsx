@@ -20,9 +20,7 @@ export default function About() {
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 1.2 }}
-        src={
-          "https://scontent.ftun2-2.fna.fbcdn.net/v/t1.6435-9/176096472_2841982616050056_5189814825065724964_n.jpg?_nc_cat=101&cb=99be929b-59f725be&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=H4Z2uEpu7nYAX-vHgGl&_nc_ht=scontent.ftun2-2.fna&oh=00_AfBJQmZ0lmzobOA3xUdOoVPQMEnShJhkuC6DFVyGeE9LRA&oe=64B7D8C6"
-        }
+        src={"/me2.jpg"}
         alt="Author Pic"
         className="md:h-95 -mb-20 h-32 w-32 flex-shrink-0 rounded-full object-cover md:mb-0 md:h-64 md:w-64 md:rounded-lg"
       />
@@ -32,12 +30,13 @@ export default function About() {
           <span className="text-4xl font-extrabold text-[#01b71f]">me</span>
         </h4>
         <p className="text-base">
-          Detail-oriented and calm even in chaotic or stressful situations.
-          Organized, amiable professional who gets along well with colleagues
-          and clients alike. Passionate about achieving technical excellence
-          with each project. Excited about finding new techniques and approaches
-          for creating unique products that clients want and making each
-          production the best it can be.
+          Highly skilled web developer with a proven track record in developing
+          responsive and scalable web applications. With over 2 years of
+          full-stack development experience, I have a unique understanding of
+          both front and back-end systems. I've successfully led a team to
+          increase website conversion rates by 25% by improving UX/UI design.
+          I'm seeking a challenging role to leverage my skills to contribute to
+          innovative web solutions.
         </p>
       </div>
     </motion.div>
