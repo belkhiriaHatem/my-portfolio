@@ -63,7 +63,10 @@ export default function Projects() {
 
       <div className="relative z-20 flex w-full snap-x snap-mandatory overflow-y-hidden overflow-x-scroll scrollbar-thin scrollbar-track-[#222523] scrollbar-thumb-[#01b71f]/80">
         {projects.map((project, i) => (
-          <div className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44">
+          <div
+            key={i}
+            className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44"
+          >
             <motion.img
               initial={{ opacity: 0, y: -300 }}
               whileInView={{ opacity: 1, y: 0 }}

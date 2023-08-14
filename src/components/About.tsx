@@ -33,10 +33,10 @@ export default function About() {
           Highly skilled web developer with a proven track record in developing
           responsive and scalable web applications. With over 2 years of
           full-stack development experience, I have a unique understanding of
-          both front and back-end systems. I've successfully led a team to
+          both front and back-end systems. I&apos;ve successfully led a team to
           increase website conversion rates by 25% by improving UX/UI design.
-          I'm seeking a challenging role to leverage my skills to contribute to
-          innovative web solutions.
+          I&apos;m seeking a challenging role to leverage my skills to
+          contribute to innovative web solutions.
         </p>
       </div>
     </motion.div>
