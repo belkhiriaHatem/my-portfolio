@@ -39,11 +39,11 @@ export default function ContactMe() {
         <div className="space-y-0 p-2">
           <div className="flex items-center justify-center space-x-1">
             <PhoneIcon className="h-4 w-4 animate-pulse text-[#01b71f]" />
-            <p className="text-sm">+216 28 330 720</p>
+            <p className="text-xl">+216 28 330 720</p>
           </div>
           <div className="flex items-center justify-center space-x-1">
             <EnvelopeIcon className="h-4 w-4 animate-pulse text-[#01b71f]" />
-            <p className="text-sm">hatembelkhiria@yahoo.com</p>
+            <p className="text-lg">hatembelkhiria@yahoo.com</p>
           </div>
           <div className="flex items-center justify-center space-x-1">
             <MapPinIcon className="h-4 w-4 animate-pulse text-[#01b71f]" />
