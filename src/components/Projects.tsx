@@ -5,11 +5,68 @@ import Link from "next/link";
 export default function Projects() {
   const projects = [
     {
-      image: "https://vndit.io/wp-content/uploads/2023/04/LOGO-Vndit.svg",
+      image: "/vndit.jpg",
       description: "Vndit is an advanced ERP solution for Retailers.",
       title: "Vndit",
       visitable: true,
-      url: "https://vndit.io",
+      url: "https://www.linkedin.com/company/vnditio/about/",
+    },
+    {
+      image: "/vndit.jpg",
+      description: "Vndit POS is an offline first POS PWA.",
+      title: "Vndit POS",
+      visitable: true,
+      url: "https://www.linkedin.com/company/vnditio/about/",
+    },
+    {
+      image: "/ems.png",
+      description:
+        "Employee Management System for the Tunisian Ministry of Health, handling admin and operational workflows.",
+      title: "EMS",
+      visitable: false,
+      url: "",
+    },
+    {
+      image: "/kreno2.webp",
+      description:
+        "A driving school management PWA with a feature-rich events calendar, built with Angular and Tailwind.",
+      title: "Kreno2",
+      visitable: true,
+      url: "https://kreno2.enpc-ediser.com",
+    },
+    {
+      image: "/connect-smart-drive.webp",
+      description:
+        "A ride-hailing application (similar to Uber/Bolt) with real-time driver/passenger sync and admin dashboard.",
+      title: "Connect SmartDrive",
+      visitable: true,
+      url: "https://connect-smartdrive.com/en/",
+    },
+    {
+      description: "A full-stack website for El Ferik, a restaurant and bar.",
+      title: "El Ferik",
+      visitable: true,
+      url: "https://elferik.com",
+    },
+    {
+      description:
+        "A full-stack website for Hype Experience Bar, a restaurant and bar.",
+      title: "Hype Experience Bar",
+      visitable: true,
+      url: "https://hypeexperiencebar.com",
+    },
+    {
+      description: "A full-stack website for Jobi, a tapas bar.",
+      title: "Jobi Tapas Bar",
+      visitable: true,
+      url: "https://jobitapasbar.com",
+    },
+    {
+      description:
+        "A portfolio website for Marwen Bayoudh, an interior architect.",
+      title: "Bayoudh Marwen",
+      visitable: true,
+      url: "https://bayoudhmarwen.com",
     },
     {
       image: "/genio-logo.png",
@@ -27,15 +84,8 @@ export default function Projects() {
       url: "https://spotify-clone-belkhiriahatem.vercel.app",
     },
     {
-      image: "https://vndit.io/wp-content/uploads/2023/04/LOGO-Vndit.svg",
-      description: "Vndit POS is an offline first POS PWA.",
-      title: "Vndit POS",
-      visitable: true,
-      url: "https://vndit.io",
-    },
-    {
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/768px-Logo_of_Twitter.svg.png",
+        "/twitter.jpg",
       description: "A fully functionnal Twitter Clone",
       title: "Twitter Clone",
       visitable: true,
@@ -43,7 +93,7 @@ export default function Projects() {
     },
     {
       image:
-        "https://parade.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_760/MTk0NDkyNDU0MjY1NjkzODcz/emoji-meaning.webp",
+        "/emojis.png",
       description: "Chirp is a SM platform that allow only emoji posts.",
       title: "Chirp",
       visitable: true,
@@ -67,7 +117,7 @@ export default function Projects() {
             key={i}
             className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44"
           >
-            <motion.img
+            {project.image ? (<motion.img
               initial={{ opacity: 0, y: -300 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.2 }}
@@ -75,7 +125,8 @@ export default function Projects() {
               className="w-64 rounded-sm object-contain"
               src={project.image}
               alt={project.title}
-            />
+            />) : null}
+
             <div className="max-w-6xl space-y-5 px-0 md:px-10">
               <h4 className="text-center text-4xl font-bold">
                 <span className="text-[#01b71f]">Case Study {i + 1}:</span>{" "}

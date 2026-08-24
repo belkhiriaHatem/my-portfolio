@@ -8,7 +8,7 @@ export default function Hero() {
   const [text, count] = useTypewriter({
     words: [
       "Hi, The Name's Hatem",
-      "guy-who-loves-techno.tsx",
+      "guy-who-loves-music.tsx",
       "<ButLovesToCodeMore />",
     ],
     loop: true,

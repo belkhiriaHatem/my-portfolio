@@ -22,7 +22,7 @@ export default function Header() {
           fgColor="gray"
           bgColor="transparent"
         />
-        <SocialIcon
+        {/* <SocialIcon
           url="https://soundcloud.com/t0my-b"
           fgColor="gray"
           bgColor="transparent"
@@ -31,7 +31,7 @@ export default function Header() {
           url="https://www.facebook.com/hatem.belkhiria.14"
           fgColor="gray"
           bgColor="transparent"
-        />
+        /> */}
       </motion.div>
       <Link href="#contact">
         <motion.div

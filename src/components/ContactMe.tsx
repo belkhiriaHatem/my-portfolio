@@ -28,7 +28,7 @@ export default function ContactMe() {
         Contact Me📲
       </h3>
 
-      <div className="flex flex-col space-y-2 p-2">
+      <div className="flex flex-col space-y-4 p-2">
         <h4 className="text-center text-4xl font-thin">
           I have got just what you need.{" "}
           <span className="font-extrabold text-[#01b71f]">
@@ -36,7 +36,7 @@ export default function ContactMe() {
           </span>
         </h4>
 
-        <div className="space-y-0 p-2">
+        <div className="space-y-4 p-2">
           <div className="flex items-center justify-center space-x-1">
             <PhoneIcon className="h-4 w-4 animate-pulse text-[#01b71f]" />
             <p className="text-xl">+216 28 330 720</p>
@@ -51,7 +51,7 @@ export default function ContactMe() {
           </div>
         </div>
 
-        <form
+        {/* <form
           onSubmit={() => handleSubmit(onSubmit)}
           className="mx-auto flex w-fit flex-col space-y-2"
         >
@@ -88,7 +88,7 @@ export default function ContactMe() {
           >
             Submit
           </button>
-        </form>
+        </form> */}
       </div>
     </div>
   );

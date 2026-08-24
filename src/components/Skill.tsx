@@ -1,19 +1,14 @@
 import React from "react";
-import { motion } from "framer-motion";
 
 type Props = {
-  directionLeft?: boolean;
   img: string;
   prct: number;
 };
 
-export default function Skill({ directionLeft, img, prct }: Props) {
+export default function Skill({ img, prct }: Props) {
   return (
     <div className="group relative flex cursor-pointer">
-      <motion.img
-        initial={{ x: directionLeft ? -200 : 200, opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
-        transition={{ duration: 1 }}
+      <img
         src={"/skills-images" + img}
         className="h-20 w-20 rounded-full border-[5px] border-[#222523] object-contain filter transition duration-300 ease-in-out group-hover:grayscale xl:h-24 xl:w-24"
       />

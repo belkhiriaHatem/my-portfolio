@@ -19,18 +19,22 @@ export default function Skills() {
       </h3>
 
       <div className="grid grid-cols-4 gap-5">
-        <Skill prct={95} directionLeft={true} img="/react.png" />
-        <Skill prct={80} directionLeft={true} img="/prisma.webp" />
-        <Skill prct={90} directionLeft={true} img="/redux.png" />
-        <Skill prct={75} directionLeft={true} img="/ts.png" />
-        <Skill prct={85} directionLeft={true} img="/tailwind.jpg" />
-        <Skill prct={80} directionLeft={true} img="/laravel.jpg" />
-        <Skill prct={90} img="/mysql.png" />
-        <Skill prct={70} img="/graphql.webp" />
-        <Skill prct={85} img="/trpc.svg" />
+        <Skill prct={95} img="/react.png" />
         <Skill prct={90} img="/next.png" />
-        <Skill prct={70} img="/mongodb.png" />
-        <Skill prct={75} img="/django.png" />
+        <Skill prct={85} img="/ts.png" />
+        <Skill prct={90} img="/redux.png" />
+        <Skill prct={85} img="/tailwind.jpg" />
+        <Skill prct={75} img="/angular.svg" />
+        <Skill prct={90} img="/node.webp" />
+        <Skill prct={80} img="/python.webp" />
+        <Skill prct={85} img="/laravel.jpg" />
+        <Skill prct={75} img="/symfony.webp" />
+        <Skill prct={80} img="/prisma.webp" />
+        <Skill prct={80} img="/trpc.svg" />
+        <Skill prct={90} img="/postgresql.webp" />
+        <Skill prct={90} img="/mysql.png" />
+        <Skill prct={75} img="/firebase.png" />
+        <Skill prct={70} img="/azure.jpg" />
       </div>
     </motion.div>
   );
