@@ -4,28 +4,17 @@ import ExperienceCard from "./ExperienceCard";
 
 const experiences = [
   {
-    logo: "/freelance.webp",
-    title: "Freelance Full-Stack Developer",
-    company: "Self-Employed",
-    dateText: "Started 04/2026 - Now",
-    bullets: [
-      "Design and build custom websites for restaurants, real estate agencies, and local businesses using Next.js, Node.js, and PostgreSQL.",
-      "Own the full project lifecycle — from client requirements gathering and UI design through deployment and post-launch support.",
-      "Develop fast, SEO-friendly, responsive front ends with Next.js integrated with PostgreSQL-backed Node.js services.",
-      "Manage client relationships directly, handling scope, timelines, and ongoing maintenance across multiple concurrent projects.",
-    ],
-  },
-  {
     logo: "/sato.webp",
-    title: "Web Developer",
+    title: "Frontend-Focused Full-Stack Engineer",
     company: "SATORIPOP",
-    dateText: "11/2021 - 04/2026",
+    dateText: "11/2021 - Present",
     bullets: [
-      "Built and shipped full-stack web applications end to end, owning React.js front-end architecture and Node.js/Laravel backend APIs.",
-      "Designed and integrated REST APIs connecting front-end applications to backend services and third-party systems.",
-      "Took ownership of technical decision-making on project structure and architecture, independently selecting libraries and tools.",
-      "Maintained clean, well-structured, documented code through code reviews and clean-code practices.",
-      "Managed full development cycles including deployment and production release, working autonomously in a fast-paced team.",
+      "Led React.js and Angular front-end architecture across ERP, POS and public-sector systems, coordinating with product, design and backend teams.",
+      "Replaced polling with WebSocket-based real-time sync across ERP modules, cutting update latency by over 50%.",
+      "Built an offline-first POS interface with Redux Offline and Service Workers, ensuring uninterrupted sales during network outages.",
+      "Created a reusable component and hooks library that reduced feature development time by 30%.",
+      "Delivered Angular scheduling, user management and reporting modules adopted by 40,000 agents at Tunisia's Ministry of Health.",
+      "Directed frontend architecture for an installable PWA, replacing manual scheduling with a real-time Angular/RxJS calendar system.",
     ],
   },
 ];

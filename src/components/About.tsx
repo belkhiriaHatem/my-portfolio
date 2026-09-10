@@ -30,15 +30,10 @@ export default function About() {
           <span className="text-4xl font-extrabold text-[#01b71f]">me</span>
         </h4>
         <p className="text-base">
-          Full-Stack Web Developer with 4+ years of experience building and
+          Frontend-Focused Full-Stack Engineer with 4+ years of experience building and
           shipping web applications end to end — from React.js/Next.js, Angular
           front-end architecture to Node.js, Laravel, and Python backend
-          services and REST APIs. I currently run an independent freelance
-          practice delivering full-stack websites (Next.js, Node.js,
-          PostgreSQL) for restaurants, real estate, and local businesses.
-          I take ownership of technical and product decisions, choose the
-          right tools for the job, and work autonomously across the full
-          project lifecycle — from architecture to deployment.
+          services and REST APIs.
         </p>
       </div>
     </motion.div>
